@@ -5,7 +5,7 @@ excerpt: |-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend consequat nisl, eget consequat velit venenatis consectetur. Nullam vehicula lorem sit amet malesuada dictum. Quisque ultrices laoreet diam, et vestibulum orci ornare ut.
 
   Cras lobortis, ex quis bibendum fringilla, magna lacus luctus metus, et lobortis lectus lectus ut risus. Fusce at dolor vel libero tristique euismod et elementum lorem. Donec congue ultricies lorem, id lacinia enim consequat in. Ut vel finibus tellus, nec auctor magna.
-image_asset: "/uploads/news-01.jpg"
+image_asset: "/uploads/news-06.jpg"
 ar_title: 5 skills necessary for self-employment
 ar_content_md: |-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend consequat nisl, eget consequat velit venenatis consectetur. Nullam vehicula lorem sit amet malesuada dictum. Quisque ultrices laoreet diam, et vestibulum orci ornare ut.
