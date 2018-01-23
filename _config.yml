@@ -47,6 +47,11 @@ defaults:
     layout: post
     Blog_categories: ''
     Blog_tags: ''
+    image_asset: ''
+    excerpt: ''
+    ar_title: ''
+    ar_content_md: ''
+    ar_excerpt: ''
 permalink: pretty
 exclude:
 - Gemfile.lock

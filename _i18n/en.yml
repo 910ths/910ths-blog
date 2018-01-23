@@ -1,0 +1,74 @@
+direction: ltr
+
+logo: Nine Tenths
+lang_slug: '/en'
+
+api:
+    join: Join us
+    login: Login
+    account: My account
+    logout: Logout
+    settings: Settings
+
+zendesk:
+    label: Support
+    waiting: Waiting...
+
+products:
+    title: SERVICES
+    p_01:
+        title: Financial Solutions
+        url: https://a2f.910ths.sa/lang/en
+        uat_url: https://uat-a2f.910ths.sa/lang/ar
+    p_02:
+        title: Forsa
+        url: https://forsa.910ths.sa/
+        uat_url: https://uat-forsa.910ths.sa/
+    p_03:
+        title: Bahr
+        url: https://bahr.910ths.sa/en
+        uat_url: https://uat-bahr.910ths.sa/ar
+    p_04:
+        title: Tojjar
+        url: https://tojjar.910ths.sa/
+        uat_url: https://uat-tojjar.910ths.sa/
+    p_05:
+        title: Startup Accelerator
+        url: https://a2a.910ths.sa/lang/en
+        uat_url: https://uat-a2a.910ths.sa/lang/ar
+    p_06:
+        title: Access to Information
+        url: https://data.910ths.sa/en
+        uat_url: https://uat-data.910ths.sa/ar
+    p_07:
+        title: Add Your Own Service
+        url: https://ayos.910ths.sa/
+        uat_url: https://uat-ayos.910ths.sa/
+
+months:
+  short:
+    m_01: Jan
+    m_02: Feb
+    m_03: Mar
+    m_04: Apr
+    m_05: May
+    m_06: Jun
+    m_07: Jul
+    m_08: Aug
+    m_09: Sep
+    m_10: Oct
+    m_11: Nov
+    m_12: Dec
+  full:
+    m_01: January
+    m_02: February
+    m_03: March
+    m_04: April
+    m_05: May
+    m_06: June
+    m_07: July
+    m_08: August
+    m_09: September
+    m_10: October
+    m_11: November
+    m_12: December

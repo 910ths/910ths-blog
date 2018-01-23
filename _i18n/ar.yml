@@ -1,0 +1,74 @@
+direction: rtl
+
+logo: تسعة أعشار
+lang_slug: ''
+
+api:
+    join: سجل معنا
+    login: دخول
+    account: حسابي
+    logout: خروج
+    settings: الإعدادات
+
+zendesk:
+    label: الدعم
+    waiting: انتظار...
+
+products:
+    title: الخدمات
+    p_01:
+        title: الحلول المالية
+        url: https://a2f.910ths.sa/lang/ar
+        uat_url: https://uat-a2f.910ths.sa/lang/ar
+    p_02:
+        title: فرصة
+        url: https://forsa.910ths.sa/
+        uat_url: https://uat-forsa.910ths.sa/
+    p_03:
+        title: منصة بحر
+        url: https://bahr.910ths.sa/ar
+        uat_url: https://uat-bahr.910ths.sa/ar
+    p_04:
+        title: تُجّار
+        url: https://tojjar.910ths.sa/
+        uat_url: https://uat-tojjar.910ths.sa/
+    p_05:
+        title: مسرعة الأعمال الناشئة
+        url: https://a2a.910ths.sa/lang/ar
+        uat_url: https://uat-a2a.910ths.sa/lang/ar
+    p_06:
+        title: الوصول إلى المعلومات
+        url: https://data.910ths.sa/ar
+        uat_url: https://uat-data.910ths.sa/ar
+    p_07:
+        title: أضف خدمتك
+        url: https://ayos.910ths.sa/
+        uat_url: https://uat-ayos.910ths.sa/
+
+months:
+  short:
+    m_01: يناير
+    m_02: فبراير
+    m_03: مارس
+    m_04: أبريل
+    m_05: مايو
+    m_06: يونيو
+    m_07: يوليو
+    m_08: أغسطس
+    m_09: سبتمبر
+    m_10: أكتوبر
+    m_11: نوفمبر
+    m_12: ديسمبر
+  full:
+    m_01: يناير
+    m_02: فبراير
+    m_03: مارس
+    m_04: أبريل
+    m_05: مايو
+    m_06: يونيو
+    m_07: يوليو
+    m_08: أغسطس
+    m_09: سبتمبر
+    m_10: أكتوبر
+    m_11: نوفمبر
+    m_12: ديسمبر
