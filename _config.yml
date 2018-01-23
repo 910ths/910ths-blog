@@ -45,13 +45,13 @@ defaults:
     type: blog
   values:
     layout: post
-    Blog_categories: ''
-    Blog_tags: ''
-    image_asset: ''
     excerpt: ''
+    image_asset: ''
     ar_title: ''
     ar_content_md: ''
     ar_excerpt: ''
+    Blog_categories: ''
+    Blog_tags: ''
 permalink: pretty
 exclude:
 - Gemfile.lock
