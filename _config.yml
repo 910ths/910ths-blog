@@ -1,0 +1,58 @@
+---
+title: Blog
+timezone: UTC
+collections:
+  blog:
+    title: Blog
+    output: true
+  blog-categories:
+    title: Blog_categories
+    output: true
+  blog-tags:
+    title: Blog_tags
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: blog-categories
+  values:
+    layout: category
+    ar_title: ''
+- scope:
+    path: ''
+    type: blog-tags
+  values:
+    layout: tag
+    ar_title: ''
+- scope:
+    path: ''
+    type: blog
+  values:
+    layout: post
+    Blog_categories: ''
+    Blog_tags: ''
+permalink: pretty
+exclude:
+- Gemfile.lock
+- gulpfile.js
+- node_modules
+- npm-debug.log
+- package.json
+- README.md
+gems: 
