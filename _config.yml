@@ -5,12 +5,15 @@ collections:
   blog:
     title: Blog
     output: true
+    permalink: "/:path"
   blog-categories:
     title: Blog_categories
     output: true
+    permalink: "/category/:path"
   blog-tags:
     title: Blog_tags
     output: true
+    permalink: "/tag/:path"
   posts:
     title: Posts
     output: true
@@ -52,9 +55,10 @@ defaults:
     ar_excerpt: ''
     Blog_categories: ''
     Blog_tags: ''
+url: http://127.0.0.1
 version: Hi9yPAU3TF
 title_suffix: Nine Tenths
-arabic_title_suffix: تسعة أعشار
+ar_title_suffix: تسعة أعشار
 esso:
   base_url: https://esso.910ths.sa
   client_id: 8
@@ -69,13 +73,20 @@ hotjar_snippet_version:
 google_analytics_ua: 
 google_tag_manager_gtm: 
 description: 
-arabic_description: 
+ar_description: 
 social:
   twitter: "#"
   instagram: "#"
   facebook: "#"
   linkedin: "#"
   youtube: "#"
+masonry:
+  limit: 5
+  more_count: 2
+  animation_time: 2000
+facebook:
+  app_id: 314587042375137
+  app_secret: 2f1c62181919c413f9970799d9129761
 permalink: pretty
 markdown: kramdown
 exclude:

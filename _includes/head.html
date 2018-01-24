@@ -48,13 +48,13 @@
     <div class="container">
       <div class="header__inner">
         <a href="index.php">
-          <h1 class="header__title">Nine Tenths <strong>Blog</strong></h1>
+          <h1 class="header__title">{% value site.title_suffix %} <strong>{% t header_blog %}</strong></h1>
         </a>
         <div class="header__categories">
-          <a href="#" class="header__category">Freelance</a>
-          <a href="#" class="header__category">Skills</a>
-          <a href="#" class="header__category">Tips</a>
-          <a href="#" class="header__category">business</a>
+          {% assign categories = site.blog-categories | sort: 'title' %}
+          {% for category in categories %}
+            <a href="{{ category.url }}" class="header__category">{{ category.title }}</a>
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -62,10 +62,20 @@
 
   <div class="socialIcons hideScroll hideScroll--right">
     <div class="socialIcons__items">
-      <a href="#" target="_blank" class="socialIcons__item socialIcons__item--twitter"></a>
-      <a href="#" target="_blank" class="socialIcons__item socialIcons__item--instagram"></a>
-      <a href="#" target="_blank" class="socialIcons__item socialIcons__item--facebook"></a>
-      <a href="#" target="_blank" class="socialIcons__item socialIcons__item--linkedin"></a>
-      <a href="#" target="_blank" class="socialIcons__item socialIcons__item--youtube"></a>
+      {% if site.social.twitter != empty %}
+        <a href="{{ site.social.twitter }}" target="_blank" class="socialIcons__item socialIcons__item--twitter"></a>
+      {% endif %}
+      {% if site.social.instagram != empty %}
+        <a href="{{ site.social.instagram }}" target="_blank" class="socialIcons__item socialIcons__item--instagram"></a>
+      {% endif %}
+      {% if site.social.facebook != empty %}
+        <a href="{{ site.social.facebook }}" target="_blank" class="socialIcons__item socialIcons__item--facebook"></a>
+      {% endif %}
+      {% if site.social.linkedin != empty %}
+        <a href="{{ site.social.linkedin }}" target="_blank" class="socialIcons__item socialIcons__item--linkedin"></a>
+      {% endif %}
+      {% if site.social.youtube != empty %}
+        <a href="{{ site.social.youtube }}" target="_blank" class="socialIcons__item socialIcons__item--youtube"></a>
+      {% endif %}
     </div>
   </div>

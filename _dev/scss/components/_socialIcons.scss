@@ -22,11 +22,10 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transform: translateX(20px);
     transition: transform .3s;
 
     &:hover {
-      transform: translateX(0);
+      transform: translateX(-20px);
 
       &:before {
         transform: translateX(10px);

@@ -1,5 +1,13 @@
   <footer class="globFooter"></footer>
 
+  <script>
+    (function () {
+      var fb910ths = {
+        'app_id'     : {{ site.facebook.app_id }},
+        'app_secret' : {{ site.facebook.app_secret }}
+      };
+    }());
+  </script>
   <script src="/build/js/scripts.js"></script>
 
   {% include code/footer/global-components.html %}

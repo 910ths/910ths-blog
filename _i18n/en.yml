@@ -1,7 +1,7 @@
 direction: ltr
-
-logo: Nine Tenths
 lang_slug: '/en'
+
+header_blog: Blog
 
 api:
     join: Join us
@@ -72,3 +72,7 @@ months:
     m_10: October
     m_11: November
     m_12: December
+
+posts:
+  read_more: Read more
+  load_more: Load more

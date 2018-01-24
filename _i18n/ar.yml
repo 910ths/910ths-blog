@@ -1,7 +1,7 @@
 direction: rtl
-
-logo: تسعة أعشار
 lang_slug: ''
+
+header_blog: مدونة
 
 api:
     join: سجل معنا
@@ -72,3 +72,7 @@ months:
     m_10: أكتوبر
     m_11: نوفمبر
     m_12: ديسمبر
+
+posts:
+  read_more: اقرأ أكثر
+  load_more: تحميل المزيد

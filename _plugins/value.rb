@@ -6,7 +6,7 @@ module Jekyll
 			super
 			@variable      = variable
 			@arabic_slug   = 'ar'
-			@arabic_prefix = 'arabic_'
+			@arabic_prefix = 'ar_'
 
 		end
 

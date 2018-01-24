@@ -1,0 +1,5 @@
+{% assign day   = post.date | date: "%d" %}
+{% assign month = post.date | date: "m_%m" %}
+{% assign year  = post.date | date: "%Y" %}
+
+{% capture url %}{{ site.url }}{% t lang_slug %}{{ post.url }}{% endcapture %}
