@@ -70,11 +70,12 @@ google_analytics_ua:
 google_tag_manager_gtm: 
 description: 
 arabic_description: 
-  social_twitter:
-  social_instagram: 
-  social_facebook: 
-  social_linkedin: 
-  social_youtube: 
+social:
+  twitter:
+  instagram: 
+  facebook: 
+  linkedin:
+  youtube: 
 permalink: pretty
 markdown: kramdown
 exclude:
