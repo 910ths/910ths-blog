@@ -1,0 +1,28 @@
+{
+  "name": "crafton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "global": "npm install -g gulp babel-core babel-preset-es2015 browser-sync gulp gulp-autoprefixer gulp-babel gulp-concat gulp-group-css-media-queries gulp-if gulp-jsvalidate gulp-minify gulp-plumber gulp-sass gulp-sass-glob gulp-util"
+  },
+  "author": "Mateusz Gbiorczyk",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-group-css-media-queries": "^1.2.0",
+    "gulp-if": "^2.0.2",
+    "gulp-jsvalidate": "^3.0.0",
+    "gulp-minify": "^1.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-util": "^3.0.8"
+  }
+}

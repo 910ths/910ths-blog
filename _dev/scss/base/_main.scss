@@ -1,0 +1,26 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  padding-top: 80px;
+  font-weight: 400;
+  font-family: $f-main;
+  color: $c-main;
+
+  @include rwd('large-tablet') {
+    padding-top: 0;
+  }
+}
+
+.globHeaderNav__item--hasSubNav > a:after {
+  transition: none;
+}
+
+@media (min-width: 768px) {
+
+  .globHeaderNav__item--hasSubNav.open > a:after {
+    transition: all .3s;
+    transition-delay: .3s;
+  }
+}

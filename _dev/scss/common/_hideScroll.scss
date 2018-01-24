@@ -1,0 +1,40 @@
+.hideScroll {
+  
+  @include rwd('tablet', 'up') {
+    opacity: 0;
+
+    &--hidden {
+      transform: translateY(100px);
+
+      &.hideScroll--left {
+        transform: translateX(-100px);
+      }
+
+      &.hideScroll--right {
+        transform: translateX(100px);
+      }
+
+      &.hideScroll--circle {
+        transform: scale(0);
+      }
+    }
+
+    &--active {
+      transition: transform 0.7s, opacity 1s;
+      transform: translateY(0);
+      opacity: 1;
+
+      &.hideScroll--left {
+        transform: translateX(0);
+      }
+
+      &.hideScroll--right {
+        transform: translateX(0);
+      }
+
+      &.hideScroll--circle {
+        transform: scale(1);
+      }
+    }
+  }
+}

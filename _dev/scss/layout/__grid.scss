@@ -1,0 +1,212 @@
+/*
+
+  Classes to set the grid system:
+
+    • col-[1-12]
+    • offset-col-[1-12] (margin on the left side)
+
+  Helpers class:
+
+    • container-fluid (container full width)
+    • row-fluid (columns without padding left & right)
+    • row-flex (same height of columns, display flex instead of float)
+
+  Default classes to change the grid system at different resolutions:
+
+    laptop (<= 1366px):
+    • col-lgl-[1-12]
+    • offset-col-lgl-[1-12]
+
+    laptop (<= 1280px):
+    • col-lg-[1-12]
+    • offset-col-lg-[1-12]
+
+    large-tablet (<= 1024px):
+    • col-mdl-[1-12]
+    • offset-col-mdl-[1-12]
+
+    tablet (<= 768px):
+    • col-md-[1-12]
+    • offset-col-md-[1-12]
+
+    small-tablet (<= 600px):
+    • col-mds-[1-12]
+    • offset-col-mds-[1-12]
+
+    large-phone (<= 480px):
+    • col-sml-[1-12]
+    • offset-col-sml-[1-12]
+
+    phone (<= 360px):
+    • col-sm-[1-12]
+    • offset-col-sm-[1-12]
+
+*/
+
+$rwdClassess : (
+  'large-laptop' : 'lgl',
+  'laptop'       : 'lg',
+  'large-tablet' : 'mdl',
+  'tablet'       : 'md',
+  'small-tablet' : 'mds',
+  'large-phone'  : 'sml',
+  'phone'        : 'sm'
+);
+
+$containerWidth : 1200px !default;
+$colGridMargin  : 20px !default;
+$rtlActive      : false !default;
+
+.container {
+  width: 100%;
+  max-width: ($containerWidth + $colGridMargin);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: ($colGridMargin / 2);
+  padding-right: ($colGridMargin / 2);
+  box-sizing: border-box;
+
+  @include rwd('laptop') {
+    padding-left: $colGridMargin;
+    padding-right: $colGridMargin;
+  }
+
+  &.container-fluid {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .row {
+    margin-left: -($colGridMargin / 2);
+    margin-right: -($colGridMargin / 2);
+
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+
+    /* ---
+      Row options
+    --- */
+
+      &.row-fluid {
+        margin-left: 0;
+        margin-right: 0;
+      
+        .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+
+      &.row-flex {
+        display: flex;
+        flex-wrap: wrap;
+
+        .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+          float: none;
+          display: flex;
+
+          @if $rtlActive {
+            @include rtl() {
+              float: none;
+            }
+          }
+        }
+      }
+
+    /* ---
+      Columns
+    --- */
+
+      .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+        float: left;
+        padding-left: ($colGridMargin / 2);
+        padding-right: ($colGridMargin / 2);
+        box-sizing: border-box;
+
+        @if $rtlActive {
+          @include rtl() {
+            float: right;
+          }
+        }
+      }
+
+    /* ---
+      Default sizes
+    --- */
+
+      @for $i from 1 to 13 {
+        .col-#{$i} {
+          width: ($i * (100% / 12));
+        }
+      }
+
+      @for $i from 1 to 13 {
+        .offset-col-#{$i} {
+          margin-left: ($i * (100% / 12));
+
+          @if $rtlActive {
+
+            @include rtl() {
+              margin-left: 0;
+              margin-right: ($i * (100% / 12));
+            }
+          }
+        }
+      }
+
+    /* ---
+      RWD classes
+    --- */
+
+      @each $breakPoint, $index in $rwdClassess {
+
+        @include rwd(#{$breakPoint}) {
+
+          &.row-#{$index}-block {
+            display: block;
+          }
+
+          @for $i from 1 to 13 {
+            .col-#{$index}-#{$i} {
+              margin-left: 0;
+              width: ($i * (100% / 12));
+
+              @if $rtlActive {
+                @include rtl() {
+                  margin-right: 0;
+                }
+              }
+            }
+          }
+
+          @for $i from 1 to 13 {
+            .offset-col-#{$index}-#{$i} {
+              margin-left: ($i * (100% / 12));
+
+              @if $rtlActive {
+                @include rtl() {
+                  margin-left: 0;
+                  margin-right: ($i * (100% / 12));
+                }
+              }
+            }
+          }
+        }
+
+      }
+
+  }
+
+}

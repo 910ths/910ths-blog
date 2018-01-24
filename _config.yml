@@ -52,12 +52,45 @@ defaults:
     ar_excerpt: ''
     Blog_categories: ''
     Blog_tags: ''
+version: Hi9yPAU3TF
+title_suffix: Nine Tenths
+arabic_title_suffix: تسعة أعشار
+esso:
+  base_url: https://esso.910ths.sa
+  client_id: 8
+  base_uat_url: https://uat-esso.910ths.sa
+  client_uat_id: 24
+esso_api:
+  base_url: https://esso-api.910ths.sa/api
+  base_uat_url: https://uat-esso-api.910ths.sa/api
+zendesk_subdomain: 
+hotjar_id: 
+hotjar_snippet_version: 
+google_analytics_ua: 
+google_tag_manager_gtm: 
+description: 
+arabic_description: 
+  social_twitter:
+  social_instagram: 
+  social_facebook: 
+  social_linkedin: 
+  social_youtube: 
 permalink: pretty
+markdown: kramdown
 exclude:
-- Gemfile.lock
 - gulpfile.js
+- package.json
 - node_modules
 - npm-debug.log
-- package.json
 - README.md
-gems: 
+- _dev
+gems:
+- jekyll-multiple-languages-plugin
+languages:
+- ar
+- en
+exclude_from_localizations:
+- _dev
+- build
+- fonts
+- img

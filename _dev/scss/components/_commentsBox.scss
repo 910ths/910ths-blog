@@ -1,0 +1,12 @@
+.commentsBox {
+
+  &__wrap {
+    width: 100%;
+    padding-bottom: 74px;
+
+    span,
+    iframe {
+      width: 100% !important;
+    }
+  }
+}

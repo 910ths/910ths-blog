@@ -2,4 +2,26 @@
 layout: post
 ---
 
-post
+{% capture html_content %}
+<!-- START HTML -->
+
+{% include head.html %}
+
+  <div class="articlesList articlesList--single">
+    <div class="articlesList__bg" style="background-image: url();"></div>
+  </div>
+
+  <div class="commentsBox">
+    <div class="container">
+      <div class="commentsBox__inner">
+        <div class="container">
+          <div class="fb-comments commentsBox__wrap hideScroll" data-href="http://127.0.0.1/blog/"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% include footer.html %}
+
+<!-- END HTML -->
+{% endcapture %}{{ html_content | minify }}

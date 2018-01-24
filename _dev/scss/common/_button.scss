@@ -1,0 +1,37 @@
+.button {
+  display: inline-block;
+  padding: 0 35px;
+  height: 43px;
+  border: 0;
+  background-color: $c-accent;
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.16);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  transition: background-color .3s, color .3s;
+
+  &:hover {
+    background-color: $c-accent-d;
+  }
+
+  &--small {
+    background: none;
+    box-shadow: none;
+    padding: 0 20px;
+    height: 27px;
+    line-height: 25px;
+    font-size: 12px;
+    color: $c-accent;
+    border: 1px solid $c-accent;
+
+    &:hover {
+      color: rgb(255, 255, 255);
+      background-color: $c-accent;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url('../../fonts/icons/icomoon.eot?icons');
+	src:
+		url('../../fonts/icons/icomoon.eot?icons#iefix') format('embedded-opentype'),
+		url('../../fonts/icons/icomoon.ttf?icons') format('truetype'),
+		url('../../fonts/icons/icomoon.woff?icons') format('woff'),
+		url('../../fonts/icons/icomoon.svg?icons#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+$icons : (
+  'youtube' : '\e900',
+  'comment' : '\e901',
+  'facebook' : '\e902',
+  'instagram' : '\e903',
+  'like' : '\e904',
+  'linkedin' : '\e905',
+  'twitter' : '\e906'
+);
+
+@mixin icomoon($icon) {
+
+  @if map-has-key($icons, $icon) {
+
+    & {
+      content: inspect(map-get($icons, $icon)) !important;
+      font-family: 'icomoon' !important;
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+  } @else {
+
+    @warn 'Unfortunately, not found icon called `#{$icon}`!';
+
+  }
+
+}
+
+@each $icon, $content in $icons {
+
+  .icon-#{$icon}:before {
+    @include icomoon($icon);
+  }
+
+}

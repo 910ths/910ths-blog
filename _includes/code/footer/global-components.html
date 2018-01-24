@@ -1,0 +1,80 @@
+<script src="/build/js/jquery-3.2.1.min.js"></script>
+<script src="/build/js/globals.js"></script>
+
+{% if jekyll.environment == 'production' %}
+  {% assign esso_base_url     = site.esso.base_url %}
+  {% assign esso_client_id    = site.esso.client_id %}
+  {% assign esso_api_base_url = site.esso_api.base_url %}
+{% else %}
+  {% assign esso_base_url     = site.esso.base_uat_url %}
+  {% assign esso_client_id    = site.esso.client_uat_id %}
+  {% assign esso_api_base_url = site.esso_api.base_uat_url %}
+{% endif %}
+
+{% if jekyll.environment == 'production' %}
+  <script src="https://cdn.910ths.sa/js/nine10ths-components.min.js?_={{ site.version }}"></script>
+{% else %}
+  <script src="https://s3.eu-central-1.amazonaws.com/nine10ths-cdn-uat/js/nine10ths-components.js?_={{ site.version }}"></script>
+{% endif %}
+
+<script>
+  var currentUrl = '{{ page.url | remove: 'index.html' }}';
+  var auth = new GlobalLogin('{{ esso_api_base_url }}', '{{ esso_client_id }}', function(userData) {
+      header.update({ loggedInUserInfo: userData });
+    }, function() {
+      header.update({loggedInUserInfo: null});
+  });
+
+  var header = new nine10ths.components.Header(document.querySelector('.globHeader'), {
+    lang: '{{ site.lang }}',
+    env: '{% if jekyll.environment == 'production' %}prod{% else %}uat{% endif %}',
+    onChangeLanguage: function(callback) {
+      console.log('language changed : ', callback);
+      if (callback.lang == 'ar')
+        window.location.href = currentUrl;
+
+      if (callback.lang == 'en')
+        window.location.href = '/' + callback.lang + currentUrl;
+
+    },
+
+    onClickLogin: function(event, loginURL) {
+      window.location = '{{ esso_base_url }}' + '/login-from-service?client_id=' + '{{ esso_client_id }}' + "&redirect_uri=" + window.location.href;
+    },
+    onClickLogout: function(event, logoutURL, origin) {
+      auth.revokeToken().then(function () {
+        delete localStorage.user910accessToken;
+        window.location = logoutURL + '?redirect_uri=' + encodeURIComponent(origin);
+      })
+    }
+  });
+
+  var footer = new nine10ths.components.Footer(document.querySelector('.globFooter'), {
+    lang: '{{ site.lang }}',
+    env: '{% if jekyll.environment == 'production' %}prod{% else %}uat{% endif %}'
+  });
+</script>
+
+<script>
+  var cb = function() {
+    var l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = '/css/main.css';
+    var h = document.getElementsByTagName('head')[0];
+    h.parentNode.insertBefore(l, h);
+
+    var ll = document.createElement('link');
+    ll.rel = 'stylesheet';
+    ll.href = 'https://cdn.910ths.sa/css/bundle.min.css?_={{ site.version }}';
+    var hh = document.getElementsByTagName('head')[0];
+    hh.parentNode.insertBefore(ll, hh);
+  };
+
+  var raf =
+    requestAnimationFrame ||
+    mozRequestAnimationFrame ||
+    webkitRequestAnimationFrame ||
+    msRequestAnimationFrame;
+  if (raf) raf(cb);
+  else window.addEventListener('load', cb);
+</script>

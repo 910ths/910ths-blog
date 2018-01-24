@@ -1,0 +1,114 @@
+.socialIcons {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+
+  &__items {
+    box-shadow: 0px 19px 16px 0px rgba(0, 0, 0, .08);
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding-right: 20px;
+    background-color: rgb(227, 226, 226);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transform: translateX(20px);
+    transition: transform .3s;
+
+    &:hover {
+      transform: translateX(0);
+
+      &:before {
+        transform: translateX(10px);
+      }
+
+      &:after {
+        opacity: .75;
+      }
+    }
+
+    &:before {
+      position: relative;
+      font-size: 22px;
+      z-index: 1;
+      color: rgb(255, 255, 255);
+      transition: transform .3s;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: .33;
+      transition: opacity .3s;
+    }
+
+    &--twitter {
+
+      &:before {
+        @include icomoon('twitter');
+      }
+
+      &:after {
+        background: linear-gradient(to bottom, rgba(0,172,237,1) 0%,rgba(0,160,221,1) 100%);
+      }
+    }
+
+    &--instagram {
+
+      &:before {
+        @include icomoon('instagram');
+      }
+
+      &:after {
+        background: linear-gradient(to bottom, rgba(205,72,107,1) 0%,rgba(206,51,92,1) 100%);
+      }
+    }
+
+    &--facebook {
+
+      &:before {
+        @include icomoon('facebook');
+      }
+
+      &:after {
+        background: linear-gradient(to bottom, rgba(59,89,152,1) 0%,rgba(46,76,140,1) 100%);
+      }
+    }
+
+    &--linkedin {
+
+      &:before {
+        @include icomoon('linkedin');
+      }
+
+      &:after {
+        background: linear-gradient(to bottom, rgba(0,119,181,1) 0%,rgba(0,104,158,1) 100%);
+      }
+    }
+
+    &--youtube {
+
+      &:before {
+        @include icomoon('youtube');
+      }
+
+      &:after {
+        background: linear-gradient(to bottom, rgba(255,0,0,1) 0%,rgba(231,0,0,1) 100%);
+      }
+    }
+  }
+}
