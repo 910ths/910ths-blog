@@ -71,10 +71,10 @@ google_tag_manager_gtm:
 description: 
 arabic_description: 
 social:
-  twitter:
+  twitter: 
   instagram: 
   facebook: 
-  linkedin:
+  linkedin: 
   youtube: 
 permalink: pretty
 markdown: kramdown
