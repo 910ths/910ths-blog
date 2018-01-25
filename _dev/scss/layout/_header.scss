@@ -33,6 +33,10 @@
     text-align: center;
     transition: opacity .3s;
 
+    @include rtl() {
+      float: right;
+    }
+
     &:hover {
       opacity: 0.5;
     }
@@ -54,9 +58,18 @@
     font-size: 0;
     margin: 0 -10px;
 
+    @include rtl() {
+      float: left;
+      text-align: left;
+    }
+
     @include rwd('large-tablet') {
       width: 100%;
       text-align: center;
+
+      @include rtl() {
+        text-align: center;
+      }
     }
   }
 

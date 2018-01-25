@@ -41,9 +41,7 @@ ar_content_md: |-
   Aliquam vitae urna eget enim auctor varius et eget mauris. In hac habitasse platea dictumst. Vestibulum odio leo, sollicitudin in condimentum a, rutrum eget elit. Donec lorem nisi, tempus vel felis sed, efficitur sodales erat.
 ar_excerpt: |-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend consequat nisl, eget consequat velit venenatis consectetur. Nullam vehicula lorem sit amet malesuada dictum. Quisque ultrices laoreet diam, et vestibulum orci ornare ut.
-  \
 
-  \
   Cras lobortis, ex quis bibendum fringilla, magna lacus luctus metus, et lobortis lectus lectus ut risus. Fusce at dolor vel libero tristique euismod et elementum lorem. Donec congue ultricies lorem, id lacinia enim consequat in. Ut vel finibus tellus, nec auctor magna.
 Blog_categories: Tips
 Blog_tags:

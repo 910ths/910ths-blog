@@ -60,7 +60,7 @@
     </div>
   </div>
 
-  <div class="socialIcons hideScroll hideScroll--right">
+  <div class="socialIcons hideScroll hideScroll--{% if site.lang == 'en' %}right{% else %}left{% endif %}">
     <div class="socialIcons__items">
       {% if site.social.twitter != empty %}
         <a href="{{ site.social.twitter }}" target="_blank" class="socialIcons__item socialIcons__item--twitter"></a>
