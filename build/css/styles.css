@@ -1000,14 +1000,61 @@ body[dir=rtl] .article.article--right .article__date {
   padding-bottom: 26px;
 }
 
-.article__content p {
+.article__content h1,
+.article__content h2,
+.article__content h3,
+.article__content p,
+.article__content ul,
+.article__content ol {
   margin-top: 16px;
+}
+
+.article__content h1:first-child,
+.article__content h2:first-child,
+.article__content h3:first-child,
+.article__content p:first-child,
+.article__content ul:first-child,
+.article__content ol:first-child {
+  margin-top: 0;
+}
+
+.article__content h1,
+.article__content h2,
+.article__content h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.article__content p,
+.article__content ul li,
+.article__content ol li {
   font-size: 18px;
   line-height: 30px;
 }
 
-.article__content p:first-child {
-  margin-top: 0;
+.article__content ul,
+.article__content ol {
+  padding-left: 30px;
+}
+
+body[dir=rtl] .article__content ul,
+body[dir=rtl]
+.article__content ol {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.article__content ul {
+  list-style-type: disc;
+}
+
+.article__content ol {
+  list-style-type: decimal;
+}
+
+body[dir=rtl] .article__content ol {
+  list-style: arabic-indic;
 }
 
 .article__footer {
@@ -1219,6 +1266,10 @@ body[dir=rtl] .article.article--small .article__more {
   font-size: 40px;
   line-height: 44px;
   text-align: center;
+}
+
+.articlesList__headline strong {
+  font-weight: 500;
 }
 
 .articlesList__list {

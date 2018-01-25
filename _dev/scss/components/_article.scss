@@ -247,13 +247,48 @@
         padding-bottom: 26px;
       }
 
-      p {
+      h1, h2, h3,
+      p,
+      ul, ol {
         margin-top: 16px;
-        font-size: 18px;
-        line-height: 30px;
 
         &:first-child {
           margin-top: 0;
+        }
+      }
+
+      h1, h2, h3 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+      }
+
+      p,
+      ul li,
+      ol li {
+        font-size: 18px;
+        line-height: 30px;
+      }
+
+      ul,
+      ol {
+        padding-left: 30px;
+
+        @include rtl() {
+          padding-left: 0;
+          padding-right: 30px;
+        }
+      }
+
+      ul {
+        list-style-type: disc;
+      }
+
+      ol {
+        list-style-type: decimal;
+
+        @include rtl() {
+          list-style: arabic-indic;
         }
       }
     }

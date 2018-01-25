@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: tag
 ---
 
 {% capture html_content %}
@@ -7,17 +7,35 @@ layout: category
 
 {% include head.html %}
 
+  {% assign posts = site.blog | sort: 'date' | reverse %}
+  {% capture title %}{% value page.title %}{% endcapture %}
+
   <div class="articlesList articlesList--archive">
     <div class="container">
-      <h2 class="articlesList__headline hideScroll">Lorem ipsum dolor sit amet consectetur adipiscing</h2>
+      <h2 class="articlesList__headline hideScroll">Browsing posts by tag: <strong>#{{ title | downcase }}</strong></h2>
       <div class="row row-fluid">
-        <div class="articlesList__list" data-dir="ltr" data-limit="5" data-more-count="2" data-animation-duration="2000">
+        <div class="articlesList__list" data-dir="{% t direction %}" data-limit="{{ site.masonry.limit }}" data-more-count="{{ site.masonry.more_count }}" data-animation-duration="{{ site.masonry.animation_time }}">
           <div class="articlesList__line hideScroll"></div>
+          {% for post in posts %}
 
+            {% assign exists = false %}
+            {% for tag in post.Blog_tags %}
+              {% if tag == page.title %}
+                {% assign exists = true %}
+              {% endif %}
+            {% endfor %}
+
+            {% if exists != true %}
+              {% continue %}
+            {% endif %}
+
+            {% include article/small.html %}
+
+          {% endfor %}
         </div>
         <div class="articlesList__moreWrap">
           <div class="hideScroll">
-            <a href="#" class="articlesList__more button">Load more</a>
+            <a href="#" class="articlesList__more button">{% t posts.load_more %}</a>
           </div>
         </div>
       </div>

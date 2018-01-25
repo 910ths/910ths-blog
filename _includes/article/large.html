@@ -11,11 +11,9 @@
       <div class="article__titleWrap">
         {% assign categories = site.blog-categories | sort: 'title' %}
         {% for category in categories %}
-          {% for current in post.Blog_categories %}
-            {% if category.title contains current %}
-              <a href="{% t lang_slug %}{{ category.url }}" class="article__category">{{ category.title | downcase }}</a>
-            {% endif %}
-          {% endfor %}
+          {% if category.title == post.Blog_categories %}
+            <a href="{% t lang_slug %}{{ category.url }}" class="article__category">{{ category.title | downcase }}</a>
+          {% endif %}
         {% endfor %}
 
         <a href="{{ post.url }}">
@@ -39,14 +37,14 @@
           {% assign tags = site.blog-tags | sort: 'title' %}
           {% for tag in tags %}
             {% for current in post.Blog_tags %}
-              {% if tag.title contains current %}
+              {% if tag.title == current %}
                 <a href="{% t lang_slug %}{{ tag.url }}" class="article__tag">#{{ tag.title | downcase }}</a>
               {% endif %}
             {% endfor %}
           {% endfor %}
         </div>
         <div class="article__stats">
-          <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank" class="article__stat article__stat--like">0</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{ url }}" target="_blank" class="article__stat article__stat--like">0</a>
           <a href="#" class="article__stat article__stat--comment">0</a>
         </div>
       </div>

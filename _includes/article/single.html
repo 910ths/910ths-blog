@@ -1,41 +1,47 @@
-<article class="article article--large" data-url="http://127.0.0.1/blog/">
+{% include article/settings.html %}
+
+<article class="article article--large" data-url="{{ url }}">
   <div class="article__inner">
     <div class="article__header hideScroll">
       <div class="article__date">
-        <div class="article__dateItem">Nov</div>
-        <div class="article__dateItem article__dateItem--large">12</div>
-        <div class="article__dateItem">2017</div>
+        <div class="article__dateItem">{% t months.short.{{month}} %}</div>
+        <div class="article__dateItem article__dateItem--large">{% numerals {{ day }} %}</div>
+        <div class="article__dateItem">{% numerals {{ year }} %}</div>
       </div>
       <div class="article__titleWrap">
-        <a href="single.php" class="article__category">Skills</a>
-        <a href="single.php">
-          <h2 class="article__title">5 skills necessary for self-employment</h2>
+        {% assign categories = site.blog-categories | sort: 'title' %}
+        {% for category in categories %}
+          {% if category.title == post.Blog_categories %}
+            <a href="{% t lang_slug %}{{ category.url }}" class="article__category">{{ category.title | downcase }}</a>
+          {% endif %}
+        {% endfor %}
+
+        <a href="{{ post.url }}">
+          <h2 class="article__title">{{ post.title }}</h2>
         </a>
       </div>
     </div>
     <a href="single.php" class="article__image hideScroll">
-      <div class="article__imageInner" style="background-image: url(tmp/news-01.jpg);"></div>
+      <div class="article__imageInner" style="background-image: url({{ post.image_asset }});"></div>
     </a>
     <div class="article__content hideScroll">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sed labore et dolore magna aliqua dolor sit amet. Lorem ipsum dolor sit amet, consectetur do adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit amet ut labore.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sed labore et dolore magna aliqua dolor sit amet. Lorem ipsum dolor sit amet, consectetur do adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit amet ut labore.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sed labore et dolore magna aliqua dolor sit amet. Lorem ipsum dolor sit amet, consectetur do adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit amet ut labore.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sed labore et dolore magna aliqua dolor sit amet. Lorem ipsum dolor sit amet, consectetur do adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit amet ut labore.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sed labore et dolore magna aliqua dolor sit amet. Lorem ipsum dolor sit amet, consectetur do adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit amet ut labore.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sed labore et dolore magna aliqua dolor sit amet. Lorem ipsum dolor sit amet, consectetur do adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua dolor sit amet ut labore.</p>
+      {% capture content %}{% value post.content %}{% endcapture %}
+      {{ content | markdownify }}
     </div>
     <div class="article__footer">
       <div class="article__info hideScroll">
         <div class="article__tags">
-          <a href="archive.php" class="article__tag">#work</a>
-          <a href="archive.php" class="article__tag">#writer</a>
-          <a href="archive.php" class="article__tag">#skills</a>
-          <a href="archive.php" class="article__tag">#freelance</a>
-          <a href="archive.php" class="article__tag">#business</a>
-          <a href="archive.php" class="article__tag">#money</a>
+          {% assign tags = site.blog-tags | sort: 'title' %}
+          {% for tag in tags %}
+            {% for current in post.Blog_tags %}
+              {% if tag.title == current %}
+                <a href="{% t lang_slug %}{{ tag.url }}" class="article__tag">#{{ tag.title | downcase }}</a>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
         </div>
         <div class="article__stats">
-          <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank" class="article__stat article__stat--like">0</a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{ url }}" target="_blank" class="article__stat article__stat--like">0</a>
           <a href="#" class="article__stat article__stat--comment">0</a>
         </div>
       </div>

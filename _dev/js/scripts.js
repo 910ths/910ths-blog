@@ -776,11 +776,11 @@ var Stats = function () {
 
       this._list = document.querySelector('.articlesList');
 
-      if (!this._list) return;
+      if (!this._list || !fb910ths) return;
 
       this._items = this._list.querySelectorAll('.article');
       this._length = this._items.length;
-      this._token = '314587042375137|2f1c62181919c413f9970799d9129761';
+      this._token = fb910ths.app_id + '|' + fb910ths.app_secret;
       this._apiUrl = 'https://graph.facebook.com/?id={URL}&access_token=' + this._token + '&fields=engagement';
 
       return true;
