@@ -29,12 +29,12 @@
 
 1. Open Node.js console.
 2. Go to `/gulp` directory of your project.
-3. Run command `gulp` *(reference: gulpfile.js)*.
-4. Edit files:
+3. Edit files:
 
   * `.scss` in `/_dev/scss` directory
   * `.js` in `/_dev/js` directory
 
+4. Run command `gulp` *(reference: gulpfile.js)*.
 5. Output files will be saved in below files:
 
   * `/build/css/styles.css`
