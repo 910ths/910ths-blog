@@ -5,15 +5,15 @@ collections:
   blog:
     title: Blog
     output: true
-    permalink: "/:path"
+    permalink: "/:path/"
   blog-categories:
     title: Blog_categories
     output: true
-    permalink: "/category/:path"
+    permalink: "/category/:path/"
   blog-tags:
     title: Blog_tags
     output: true
-    permalink: "/tag/:path"
+    permalink: "/tag/:path/"
   posts:
     title: Posts
     output: true
