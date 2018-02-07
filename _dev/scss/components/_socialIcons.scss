@@ -13,6 +13,10 @@
     left: 0;
   }
 
+  @include rwd('tablet') {
+    width: 30px;
+  }
+
   &__items {
     box-shadow: 0px 19px 16px 0px rgba(0, 0, 0, .08);
   }
@@ -29,23 +33,49 @@
     cursor: pointer;
     transition: transform .3s;
 
+    @include rwd('tablet') {
+      width: 30px;
+      height: 30px;
+      padding-right: 10px;
+    }
+
     @include rtl() {
       padding-right: 0;
       padding-left: 20px;
+
+      @include rwd('tablet') {
+        padding-left: 10px;
+      }
     }
 
     &:hover {
       transform: translateX(-20px);
 
+      @include rwd('tablet') {
+        transform: translateX(-10px);
+      }
+
       @include rtl() {
         transform: translateX(20px);
+
+        @include rwd('tablet') {
+          transform: translateX(10px);
+        }
       }
 
       &:before {
         transform: translateX(10px);
 
+        @include rwd('tablet') {
+          transform: translateX(5px);
+        }
+
         @include rtl() {
           transform: translateX(-10px);
+
+          @include rwd('tablet') {
+            transform: translateX(-5px);
+          }
         }
       }
 
@@ -60,6 +90,10 @@
       z-index: 1;
       color: rgb(255, 255, 255);
       transition: transform .3s;
+
+      @include rwd('tablet') {
+        font-size: 12px;
+      }
     }
 
     &:after {

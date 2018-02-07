@@ -47,10 +47,10 @@ class Stats {
         if (xhr.status !== 200)
           return
 
-        let likes    = xhr.response.engagement.reaction_count
+        // let likes    = xhr.response.engagement.reaction_count
         let comments = xhr.response.engagement.comment_plugin_count
 
-        this._items[i].querySelector('.article__stat--like').innerHTML    = likes
+        // this._items[i].querySelector('.article__stat--like').innerHTML    = likes
         this._items[i].querySelector('.article__stat--comment').innerHTML = comments
 
       };

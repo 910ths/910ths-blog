@@ -397,7 +397,7 @@
 
     &__stat {
       float: left;
-      margin-right: 28px;
+      margin-right: 15px;
       font-weight: 500;
       font-size: 14px;
       line-height: 19px;
@@ -409,7 +409,7 @@
       @include rtl() {
         float: right;
         margin-right: 0;
-        margin-left: 28px;
+        margin-left: 15px;
       }
 
       @include parent('.article', '.article--small') {
@@ -442,6 +442,27 @@
 
         @include parent('.article', '.article--small') {
           font-size: 18px;
+        }
+      }
+
+      &--facebook {
+
+        &:before {
+          @include icomoon('facebook');
+        }
+      }
+
+      &--twitter {
+
+        &:before {
+          @include icomoon('twitter');
+        }
+      }
+
+      &--linkedin {
+
+        &:before {
+          @include icomoon('linkedin');
         }
       }
 

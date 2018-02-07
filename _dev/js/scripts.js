@@ -811,10 +811,10 @@ var Stats = function () {
 
           if (xhr.status !== 200) return;
 
-          var likes = xhr.response.engagement.reaction_count;
+          // let likes    = xhr.response.engagement.reaction_count
           var comments = xhr.response.engagement.comment_plugin_count;
 
-          _this2._items[i].querySelector('.article__stat--like').innerHTML = likes;
+          // this._items[i].querySelector('.article__stat--like').innerHTML    = likes
           _this2._items[i].querySelector('.article__stat--comment').innerHTML = comments;
         };
 
