@@ -1,6 +1,6 @@
 ---
-title: Freelancing
+title: العمل الحر
 date: 2018-01-23 12:46:00 Z
-ar_title: Freelancing
+ar_title: العمل الحر
 ---
 
