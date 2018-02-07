@@ -1,6 +1,6 @@
 ---
-title: Skills
+title: Freelancing
 date: 2018-01-23 12:46:00 Z
-ar_title: Skills
+ar_title: Freelancing
 ---
 
