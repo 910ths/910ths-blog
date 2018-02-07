@@ -1,6 +1,6 @@
 ---
-title: Innovation
+title: الابتكار
 date: 2018-01-23 12:46:00 Z
-ar_title: Innovation
+ar_title: الابتكار
 ---
 
