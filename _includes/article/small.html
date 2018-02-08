@@ -1,6 +1,6 @@
 {% include article/settings.html %}
 
-<article class="article article--small hideScroll col-6 col-mdl-12" data-url="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+<article class="article article--small hideScroll col-6 col-mdl-12" data-url="{{ site.url }}{{ site.baseurl }}{{ url }}">
   <div class="article__inner">
     <div class="article__header">
       <div class="article__date">
@@ -16,7 +16,7 @@
           {% endif %}
         {% endfor %}
 
-        <a href="{{ post.url }}">
+        <a href="{{ url }}">
           <h2 class="article__title">{{ post.title }}</h2>
         </a>
       </div>
@@ -40,7 +40,7 @@
           <a href="https://www.facebook.com/sharer/sharer.php?u={{ url }}" target="_blank" class="article__stat article__stat--facebook"></a>
           <a href="https://twitter.com/home?status={{ url }}" target="_blank" class="article__stat article__stat--twitter"></a>
           <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ url }}" target="_blank" class="article__stat article__stat--linkedin"></a>
-          <a href="{{ post.url }}#comments" class="article__stat article__stat--comment">0</a>
+          <a href="{{ url }}#comments" class="article__stat article__stat--comment">0</a>
         </div>
       </div>
       <div class="article__tags">
