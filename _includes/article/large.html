@@ -12,12 +12,13 @@
         {% assign categories = site.blog-categories | sort: 'title' %}
         {% for category in categories %}
           {% if category.title == post.Blog_categories %}
-            <a href="{% t lang_slug %}{{ category.url }}" class="article__category">{{ category.title | downcase }}</a>
+            {% capture title %}{% value category.title %}{% endcapture %}
+            <a href="{% t lang_slug %}{{ category.url }}" class="article__category">{{ title | downcase }}</a>
           {% endif %}
         {% endfor %}
 
         <a href="{{ url }}">
-          <h2 class="article__title">{{ post.title }}</h2>
+          <h2 class="article__title">{% value post.title %}</h2>
         </a>
       </div>
     </div>

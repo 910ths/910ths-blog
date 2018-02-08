@@ -59,7 +59,7 @@
         <div class="header__categories">
           {% assign categories = site.blog-categories | sort: 'title' %}
           {% for category in categories %}
-            <a href="{{ category.url }}" class="header__category">{{ category.title }}</a>
+            <a href="{{ category.url }}" class="header__category">{% value category.title %}</a>
           {% endfor %}
         </div>
       </div>
