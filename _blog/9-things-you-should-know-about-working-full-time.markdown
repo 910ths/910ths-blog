@@ -43,7 +43,7 @@ ar_excerpt: |-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend consequat nisl, eget consequat velit venenatis consectetur. Nullam vehicula lorem sit amet malesuada dictum. Quisque ultrices laoreet diam, et vestibulum orci ornare ut.
 
   Cras lobortis, ex quis bibendum fringilla, magna lacus luctus metus, et lobortis lectus lectus ut risus. Fusce at dolor vel libero tristique euismod et elementum lorem. Donec congue ultricies lorem, id lacinia enim consequat in. Ut vel finibus tellus, nec auctor magna.
-Blog_categories: Skills
+Blog_categories: Innovation
 Blog_tags:
 - Work
 - Time
