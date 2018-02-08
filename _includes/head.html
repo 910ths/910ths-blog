@@ -48,7 +48,13 @@
     <div class="container">
       <div class="header__inner">
         <a href="{{ site.url }}{% t lang_slug %}">
-          <h1 class="header__title">{% value site.title_suffix %} <strong>{% t header_blog %}</strong></h1>
+          <h1 class="header__title">
+            {% if site.lang != 'ar' %}
+              {% value site.title_suffix %} <strong>{% t header_blog %}</strong>
+            {% else %}
+              <strong>{% t header_blog %}</strong> {% value site.title_suffix %}
+            {% endif %}
+          </h1>
         </a>
         <div class="header__categories">
           {% assign categories = site.blog-categories | sort: 'title' %}
