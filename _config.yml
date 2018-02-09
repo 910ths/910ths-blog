@@ -14,6 +14,9 @@ collections:
     title: Blog_tags
     output: true
     permalink: "/tag/:path/"
+  blog-authors:
+    title: Blog_authors
+    output: false
   posts:
     title: Posts
     output: true
@@ -43,6 +46,19 @@ defaults:
   values:
     layout: tag
     ar_title: ''
+- scope:
+    path: ''
+    type: blog-authors
+  values:
+    ar_title: ''
+    position: ''
+    ar_position: ''
+    image_asset: ''
+    twitter_url: ''
+    instagram_url: ''
+    facebook_url: ''
+    linkedin_url: ''
+    youtube_url: ''
 - scope:
     path: ''
     type: blog
