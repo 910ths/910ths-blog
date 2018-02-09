@@ -9,6 +9,7 @@ collections:
   blog-authors:
     title: Blog_authors
     output: false
+    permalink: "/author/:path/"
   blog-categories:
     title: Blog_categories
     output: true
