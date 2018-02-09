@@ -72,6 +72,7 @@ defaults:
     ar_excerpt: ''
     Blog_categories: ''
     Blog_tags: ''
+    Blog_authors: ''
 version: Hi9yPAU3TF
 title_suffix: Nine Tenths
 ar_title_suffix: تسعة أعشار
