@@ -14,6 +14,48 @@ layout: post
     {% include article/single.html %}
   </div>
 
+  {{ post.Blog_authors }}
+
+  {% assign authors = site.blog-authors | sort: 'title' %}
+  {% for author in authors %}
+    {% if author.title == post.Blog_authors %}
+      <div class="authorBox">
+        <div class="container">
+          <div class="authorBox__inner">
+            <div class="authorBox__image" style="background-image: url({{ author.image_asset }});"></div>
+            <div class="authorBox__content">
+              <h4 class="authorBox__title">
+                {% if site.lang != 'ar' %}
+                  {% t posts.by %} <strong>{% value author.title %}</strong>
+                {% else %}
+                  <strong>{% value author.title %}</strong> {% t posts.by %}
+                {% endif %}
+              </h4>
+              <p class="authorBox__position">{% value author.position %}</p>
+              <div class="authorBox__socials">
+                {% if author.twitter_url != empty %}
+                  <a href="{{ author.twitter_url }}" class="authorBox__social authorBox__social--twitter">Twitter</a>
+                {% endif %}
+                {% if author.instagram_url != empty %}
+                  <a href="{{ author.instagram_url }}" class="authorBox__social authorBox__social--instagram">Instagram</a>
+                {% endif %}
+                {% if author.facebook_url != empty %}
+                  <a href="{{ author.facebook_url }}" class="authorBox__social authorBox__social--facebook">Facebook</a>
+                {% endif %}
+                {% if author.linkedin_url != empty %}
+                  <a href="{{ author.linkedin_url }}" class="authorBox__social authorBox__social--linkedin">LinkedIn</a>
+                {% endif %}
+                {% if author.youtube_url != empty %}
+                  <a href="{{ author.youtube_url }}" class="authorBox__social authorBox__social--youtube">YouTube</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+
   <div id="comments" class="commentsBox">
     <div class="container">
       <div class="commentsBox__inner">
