@@ -6,6 +6,9 @@ collections:
     title: Blog
     output: true
     permalink: "/:path/"
+  blog-authors:
+    title: Blog_authors
+    output: false
   blog-categories:
     title: Blog_categories
     output: true
@@ -14,9 +17,6 @@ collections:
     title: Blog_tags
     output: true
     permalink: "/tag/:path/"
-  blog-authors:
-    title: Blog_authors
-    output: false
   posts:
     title: Posts
     output: true
