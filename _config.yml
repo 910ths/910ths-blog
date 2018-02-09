@@ -51,9 +51,9 @@ defaults:
     path: ''
     type: blog-authors
   values:
+    work_position: ''
     ar_title: ''
-    position: ''
-    ar_position: ''
+    ar_work_position: ''
     image_asset: ''
     twitter_url: ''
     instagram_url: ''

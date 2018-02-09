@@ -23,7 +23,7 @@ layout: post
             <div class="authorBox__image" style="background-image: url({{ author.image_asset }});"></div>
             <div class="authorBox__content">
               <h4 class="authorBox__title">{% t posts.by %} <strong>{% value author.title %}</strong></h4>
-              <p class="authorBox__position">{% value author.position %}</p>
+              <p class="authorBox__position">{% value author.work_position %}</p>
               <div class="authorBox__socials">
                 {% if author.twitter_url != empty %}
                   <a href="{{ author.twitter_url }}" target="_blank" class="authorBox__social authorBox__social--twitter">Twitter</a>
