@@ -21,10 +21,10 @@ excerpt: "    How can small actions have huge impact on our lives in the future?
   the difficulties you face. I work in a full-time job and I only had the evenings
   to work on the calendar, which I spend half of it in family commitments. Time was
   tight, but I managed to do the thing that I love because it gave me the chance to
-  express my passion for design and calligraphy.\n\n3.\tHandmade Makes you unique\nHandmade
+  express my passion for design and calligraphy.\n\n3. Handmade Makes you unique\nHandmade
   reflects your identity and your unique print, which no one can imitate. So the idea
   of printing my own handwriting on the calendar was the best way to design new calendars.
-  \n \n4.Find out what is missing in the market\nOne of the reasons that encouraged
+  \n \n4. Find out what is missing in the market\nOne of the reasons that encouraged
   me to design this calendar is when I noticed that there are few Arabic designed
   calendars. And it was my chance to design something that has clear Arabic identity
   with local touch. \n\n5. Market Your Work Through Social Media\nHaving my personal
@@ -33,10 +33,36 @@ excerpt: "    How can small actions have huge impact on our lives in the future?
   you to create an online store and to reach customers outside my city.\n\nFinally,
   I’d like to conclude this blog with the an inspirational quote by Robin Sharma;
   \n\"It doesn't matter where you start, only you begin\".\n\n\n"
+image_asset: "/uploads/blog%20post%202.jpg"
 ar_title: المهم أن تبدأ
 ar_content_md: "كيف للأشياء الصغيرة اليومية أن يكون لها تأثيرًا كبيرًاعلى أفعالنا
-  في المستقبل؟ \nهذا ما فعلته الكتابات التحفيزية اليومية في حياة حصة العمير؛ مصممة
-  تقويم التفاؤل. \n"
+  في المستقبل؟  \n\nهذا ما فعلته الكتابات التحفيزية اليومية في حياة حصة العمير؛ مصممة
+  تقويم التفاؤل. \n\nتقول حصة : \n\n\"في أول أسبوع لي في عملي الجديد، كان الجو العام
+  من حولي محاطًا بالسلبية وكنت أشعر بأن الموظفين محبطين. ووجدت السبورة أمامي مغرية
+  لكتابة عبارات تحفيزية، خاصة بأني هاوية للطباعة وكتابة المخطوطات. مع الأيام بدأت
+  هذه العبارات تحصد العديد من الإعجابات والتشجيع من قبل الموظفين\".  \n\nعلى نهاية
+  سنة ٢٠١٧، بدأت فكرة تصميم تقويم بعبارات عربية تحفيزية ومساحة للكتابة عندما طلبت
+  مني صديقة في العمل أن يكون تقويمها لسنة ٢٠١٨ من تصميمي.  \n\n\nوأخيراً في بداية
+  ٢٠١٨ بدأت بتوزيع أكثر من ثلاثمائة تقويم من تصميمي!\n  \nولأن البداية هي الأصعب،
+  سأذكر هنا خمسة نصائح مبسطة ساعدتني على بدء مشروعي:\n\n1.\tشبكة الناس والعلاقات\nكنت
+  في بداية الأمر وقبل الطباعة والتوزيع قلقة من ردود أفعال الناس ومدى تقبلهم لهذا النمط
+  من المطبوعات، ولكن الكثير من معارفي كانوا داعمين لي بعد أن أهديتهم التقويم، وكانوا
+  يعبرون عن إعجابهم عن طريق نشرها في قنوات التواصل\nالاجتماعي مما ساهم في نشر التقويم
+  وزيادة الطلبات عليه بشكل أكثر.\n\n2.\tمارس ما تحب \nممارسة ما تحب يذلل الصعوبات
+  أمامك. فعلى سبيل المثال، أنا أعمل بوظيفة دوام كامل والوقت المتاح لي للعمل على التقويم
+  كان فترة المساء فقط والتي أقضي نصفها في التزامات عائلية. الوقت كان ضيق ولكنني أوجدت
+  وقتًا لهذا المشروع لما يمثله لي من فرصة للتعبير عن شغفي وحبي للتصميم والخط العربي.\n\n3.\tالصناعة
+  اليدوية تميزك\nتمتاز الصناعة اليدوية بسحر خاص، لأنها تعكس هويتك ومهارتك ولا يستطيع
+  أي شخص تطبيق العمل نفسه. لذا كانت فكرة طباعة خطي على التقويم أفضل طريقة لشق طريق
+  خاص بي وتقديم شيء جديد.\n\n4.\tابحث عن المفقود في السوق\nمن الأسباب اللي شجعتني
+  على تصميم هذا التقويم هو أني وجدت ندرة في السوق في التصاميم الخاصة بالخط العربي.
+  ووجدتها فرصة لتصميم تقويم يمثل الهوية العربية ويعكس الطابع المحلي المتمثل بالأيام
+  الهامة في السعودية.\n\n5.\tسوق لنفسك إلكترونياً\n  وجود موقع شخصي وحساب تواصل اجتماعي
+  لعرض أعمالي ساعد على نشر التقاويم وكسب قاعدة جماهير بشكل أوسع. وحتى في حال عدم وجود
+  موقع خاص بك لبيع منتجاتك، أنصح بتجربة موقع تجّار لأنه يسمح لك بفتح متجر إلكتروني
+  مجاناً. وهذا ما سمح لي بالانتشار وإيصال منتجاتي لزبائن خارج مدينتي.\n\nأخيرا أختم
+  المدونة بأفضل ما قرأت من ناحية البدء في العمل من خبير التنمية البشرية روبن شارما
+  : \n\" لا يهم من أين تبدأ، المهم هو أن تبدأ!\"  \n\n"
 ---
 
 ![blog post 2.jpg](/uploads/blog%20post%202.jpg)
