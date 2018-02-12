@@ -1,6 +1,10 @@
 ---
 title: The Key is to Start!
 date: 2018-02-12 12:03:00 Z
+excerpt: |-
+  test
+  test
+  test
 image_asset: "/uploads/blog%20post%202.jpg"
 ar_title: المهم أن تبدأ
 ar_content_md: "كيف للأشياء الصغيرة اليومية أن يكون لها تأثيرًا كبيرًاعلى أفعالنا
