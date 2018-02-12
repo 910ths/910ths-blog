@@ -1,15 +1,14 @@
 ---
 title: The Key is to Start!
 date: 2018-02-12 12:03:00 Z
-excerpt: |-
-  test
-  test
-  test
+excerpt: 'How can small actions have huge impact on our lives in the future? This
+  is how daily motivational writings have affected Hessa Al Omair, the designer of
+  the optimistic calendar.
+
+'
 image_asset: "/uploads/blog%20post%202.jpg"
 ar_title: المهم أن تبدأ
-ar_content_md: "كيف للأشياء الصغيرة اليومية أن يكون لها تأثيرًا كبيرًاعلى أفعالنا
-  في المستقبل؟  \n\nهذا ما فعلته الكتابات التحفيزية اليومية في حياة حصة العمير؛ مصممة
-  تقويم التفاؤل. \n\nتقول حصة : \n\n\"في أول أسبوع لي في عملي الجديد، كان الجو العام
+ar_content_md: "\nتقول حصة : \n\n\"في أول أسبوع لي في عملي الجديد، كان الجو العام
   من حولي محاطًا بالسلبية وكنت أشعر بأن الموظفين محبطين. ووجدت السبورة أمامي مغرية
   لكتابة عبارات تحفيزية، خاصة بأني هاوية للطباعة وكتابة المخطوطات. مع الأيام بدأت
   هذه العبارات تحصد العديد من الإعجابات والتشجيع من قبل الموظفين\".  \n\nعلى نهاية
@@ -35,12 +34,13 @@ ar_content_md: "كيف للأشياء الصغيرة اليومية أن يكو�
   إلكتروني مجاناً. وهذا ما سمح لي بالانتشار وإيصال منتجاتي لزبائن خارج مدينتي.\n\nأخيرا
   أختم المدونة بأفضل ما قرأت من ناحية البدء في العمل من خبير التنمية البشرية روبن
   شارما : \n\" لا يهم من أين تبدأ، المهم هو أن تبدأ!\"  \n\n"
+ar_excerpt: "كيف للأشياء الصغيرة اليومية أن يكون لها تأثيرًا كبيرًاعلى أفعالنا في
+  المستقبل؟  \n\nهذا ما فعلته الكتابات التحفيزية اليومية في حياة حصة العمير؛ مصممة
+  تقويم التفاؤل. \n"
 Blog_categories: Entrepreneurship
 Blog_tags: Business
 Blog_authors: Nourah Alsadoun
 ---
-
-How can small actions have huge impact on our lives in the future? This is how daily motivational writings have affected Hessa Al Omair, the designer of the optimistic calendar.
 
 She says:
      "In my first week at my new job, I noticed that the work environment was negative and my colleagues were frustrated. I found a board in front of me and I felt compelled to write something to cheer them up. Especially that I love designing and writing in Arabic.  As the days passed, my colleagues began to admire my motivational writings and encouraged me to continue”.
