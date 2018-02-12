@@ -36,14 +36,14 @@ Blog_tags: Business
 Blog_authors: Nourah Alsadoun
 ---
 
-    How can small actions have huge impact on our lives in the future? This is how daily motivational writings have affected Hessa Al Omair, the designer of the optimistic calendar.
+How can small actions have huge impact on our lives in the future? This is how daily motivational writings have affected Hessa Al Omair, the designer of the optimistic calendar.
 
 She says:
      "In my first week at my new job, I noticed that the work environment was negative and my colleagues were frustrated. I found a board in front of me and I felt compelled to write something to cheer them up. Especially that I love designing and writing in Arabic.  As the days passed, my colleagues began to admire my motivational writings and encouraged me to continue”.
 
-    At the end of year 2017, the idea of designing a calendar with motivational Arabic quotes started when a colleague told me that she wanted her 2018 calendar to be designed by me! Finally, I designed and distributed more than 300 calendars at the beginning of the year! 
+At the end of year 2017, the idea of designing a calendar with motivational Arabic quotes started when a colleague told me that she wanted her 2018 calendar to be designed by me! Finally, I designed and distributed more than 300 calendars at the beginning of the year! 
 
-    Starting something new is not easy, so I will share here five simple tips that helped me start my own project.
+Starting something new is not easy, so I will share here five simple tips that helped me start my own project.
 The 5 Tips to Start
 
 1. Network & Relationships
