@@ -1,6 +1,8 @@
 ---
 title: The Key is to Start!
 date: 2018-02-12 12:03:00 Z
+excerpt: "Finally, I’d like to conclude this blog with the an inspirational quote
+  by Robin Sharma; \n\"It doesn't matter where you start, only you begin\".\n"
 ---
 
  How can small actions have huge impact on our lives in the future? This is how daily motivational writings have affected Hessa Al Omair, the designer of the optimistic calendar.
