@@ -21,7 +21,7 @@ ar_content_md: |-
 
   وأخيراً في بداية ٢٠١٨ بدأت بتوزيع أكثر من ثلاثمائة تقويم من تصميمي!
 
-  ![blog post 4.jpg](/uploads/blog%20post%204.jpg)
+  ![blog post 4 crop one .jpg](/uploads/blog%20post%204%20crop%20one%20.jpg)
 
   ولأن البداية هي الأصعب، سأذكر هنا خمسة نصائح مبسطة ساعدتني على بدء مشروعي:
 
