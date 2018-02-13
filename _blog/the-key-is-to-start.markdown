@@ -62,7 +62,7 @@ At the beginning, and before I started printing and distributing calendars, I wa
 
 2. **Do What You Love**
 
-Doing what you love will make you work despite the difficulties you face. I work in a full-time job and I only had the evenings to work on the calendar, which I spend half of it in family commitments. Time was tight, but I managed to do the thing that I love because it gave me the chance to express my passion for design and calligraphy.
+Doing what you love will make you work despite the difficulties you face. I work in a full-time job and I only have the evenings to work on the calendar, which I spend half of it in family commitments. Time was tight, but I managed to work on the calendar because it gave me the chance to express my passion for design and calligraphy.
 
 3. **Handmade Makes you unique**
 
