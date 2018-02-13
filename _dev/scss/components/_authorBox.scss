@@ -35,10 +35,19 @@
     width: calc(100% - 100px);
     margin-left: 22px;
 
+    &:first-child {
+      width: 100%;
+      margin-left: 0;
+    }
+
     @include rtl() {
       float: right;
       margin-left: 0;
       margin-right: 22px;
+
+      &:first-child {
+        margin-right: 0;
+      }
     }
   }
 

@@ -20,7 +20,9 @@ layout: post
       <div class="authorBox">
         <div class="container">
           <div class="authorBox__inner hideScroll">
-            <div class="authorBox__image" style="background-image: url({{ author.image_asset }});"></div>
+            {% if author.image_asset != empty %}
+              <div class="authorBox__image" style="background-image: url({{ author.image_asset }});"></div>
+            {% endif %}
             <div class="authorBox__content">
               <h4 class="authorBox__title">{% t posts.by %} <strong>{% value author.title %}</strong></h4>
               <p class="authorBox__position">{% value author.work_position %}</p>
