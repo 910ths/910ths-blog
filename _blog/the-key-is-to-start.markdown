@@ -6,7 +6,7 @@ excerpt: 'How can small actions have huge impact on our lives in the future? Thi
   the optimistic calendar.
 
 '
-image_asset: "/uploads/blog%20post%202.jpg"
+image_asset: "/uploads/blog%20post%203.jpg"
 ar_title: المهم أن تبدأ
 ar_content_md: "\nتقول حصة : \n\n\"في أول أسبوع لي في عملي الجديد، كان الجو العام
   من حولي محاطًا بالسلبية وكنت أشعر بأن الموظفين محبطين. ووجدت السبورة أمامي مغرية
@@ -53,6 +53,8 @@ She says:
 Then at the end of year 2017, the idea of designing a calendar with motivational Arabic quotes started when a colleague told me that she wanted her 2018 calendar to be designed by me. 
 
 Finally, I was able to design and distribute more than 300 calendars at the beginning of the year.
+
+![blog post 4.jpg](/uploads/blog%20post%204.jpg)
 
 Starting something new is not easy, so I will share here five simple tips that helped me start my own project.
 
