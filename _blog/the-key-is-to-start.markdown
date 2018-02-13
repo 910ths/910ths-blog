@@ -72,7 +72,7 @@ Finally, I was able to design and sell more than 300 calendars at the beginning 
 
 Starting something new is not easy, so I will share here five simple tips that helped me start my own project.
 
-**                                                                          The 5 Tips to Start**
+**                                                                      The 5 Tips to Start**
 
 1. **Build a Powerful Network **
 
