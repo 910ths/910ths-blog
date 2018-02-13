@@ -64,9 +64,9 @@ At the beginning, and before I started printing and distributing calendars, I wa
 
 Doing what you love will make you work despite the difficulties you face. I work in a full-time job and I only have the evenings to work on the calendar, which I spend half of it in family commitments. Time was tight, but I managed to work on the calendar because it gave me the chance to express my passion for design and calligraphy.
 
-3. **Handmade Makes you unique**
+3. **Handmade Business Makes you unique**
 
-Handmade reflects your identity and your unique print, which no one can imitate. So the idea of printing my own handwriting on the calendar was the best way to design new calendars.
+Handmade reflects your identity and your unique print, which no one can imitate. So the idea of printing my own handwriting on the calendar was the best way to sell new standout calendars.
 
 4. **Find out what is missing in the market**
 
