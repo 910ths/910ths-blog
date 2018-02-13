@@ -76,6 +76,6 @@ One of the reasons that encouraged me to design this calendar is when I noticed 
 
 Having my personal website and social media accounts were great help to reach a wider audience. Even if you don’t have your own website, I** **recommend you to use Tojjar as it allowed you to create an online store and to reach customers outside my city.
 
-Finally, I’d like to conclude this blog with the an inspirational quote by Robin Sharma;
+Finally, I’d like to conclude this blog with an inspirational quote by Robin Sharma;
 
 "It doesn't matter where you start, only you begin".
