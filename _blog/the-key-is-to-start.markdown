@@ -70,11 +70,11 @@ Finally, I was able to design and sell more than 300 calendars at the beginning 
 
 ![blog post 4 crop one .jpg](/uploads/blog%20post%204%20crop%20one%20.jpg)
 
-Starting something new is not easy, so I will share here five simple tips that helped me start my own project. ** **
+Starting something new is not easy, so I will share here five simple tips that helped me start my own project. 
 
-**The 5 Tips to Start**
+The 5 Tips to Start
 
-1. **Build a Powerful Network **
+1. Build a Powerful Network 
 
 At the beginning, and before I started printing and distributing calendars, I was concerned from people’s reaction to my work, but after I gave them the calendar a lot of them were very supportive . They even started sharing it through social media, which led to an increase in the number of orders’ requests.
 
