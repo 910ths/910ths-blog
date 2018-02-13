@@ -42,7 +42,7 @@ Blog_tags: Business
 Blog_authors: Nourah Alsadoun
 ---
 
-How can small actions have huge impact on our lives in the future? This is how daily motivational writings have affected Hessa Al Omair, the designer of the optimistic calendar.
+How can small actions have huge impact on our lives ? This is how daily motivational writings have affected Hessa Al Omair, the designer of the optimistic calendar.
 
 She says:
 
