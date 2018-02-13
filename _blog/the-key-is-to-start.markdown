@@ -6,7 +6,7 @@ excerpt: 'How can small actions have huge impact on our lives in the future? Thi
   the optimistic calendar.
 
 '
-image_asset: "/uploads/blog%20post%203%20(003)new%20size%20for%20the%20cover%20picture-bfcaae.jpg"
+image_asset: "/uploads/blog%20post%203_2-final%20crop%20one%20cover%20page.jpg"
 ar_title: المهم أن تبدأ
 ar_content_md: |-
   كيف للأشياء الصغيرة اليومية أن يكون لها تأثيرًا كبيرًاعلى أفعالنا في المستقبل؟
