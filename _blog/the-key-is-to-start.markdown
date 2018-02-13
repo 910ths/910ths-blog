@@ -66,7 +66,7 @@ She says:
 
 Then at the end of year 2017, the idea of designing a calendar with motivational Arabic quotes started when a colleague told me that she wanted her 2018 calendar to be designed by me. 
 
-Finally, I was able to design and distribute more than 300 calendars at the beginning of the year.
+Finally, I was able to design and sell more than 300 calendars at the beginning of the year.
 
 ![blog post 4 crop one .jpg](/uploads/blog%20post%204%20crop%20one%20.jpg)
 
