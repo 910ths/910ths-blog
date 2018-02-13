@@ -68,7 +68,7 @@ Then at the end of year 2017, the idea of designing a calendar with motivational
 
 Finally, I was able to design and distribute more than 300 calendars at the beginning of the year.
 
-![blog post 4.jpg](/uploads/blog%20post%204.jpg)
+![blog post 2.jpg](/uploads/blog%20post%202.jpg)
 
 Starting something new is not easy, so I will share here five simple tips that helped me start my own project.
 
