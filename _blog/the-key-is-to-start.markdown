@@ -56,9 +56,9 @@ Starting something new is not easy, so I will share here five simple tips that h
 
 **The 5 Tips to Start**
 
-1. **Network & Relationships**
+1. **Build a Powerful Network **
 
-At the beginning, and before I started printing and distributing calendars, I was concerned from people’s reaction to my work, but a lot of them were very supportive after I gave them the calendar. They even started sharing it through social media, which led to an increase in the number of orders’ requests.
+At the beginning, and before I started printing and distributing calendars, I was concerned from people’s reaction to my work, but after I gave them the calendar a lot of them were very supportive . They even started sharing it through social media, which led to an increase in the number of orders’ requests.
 
 2. **Do What You Love**
 
