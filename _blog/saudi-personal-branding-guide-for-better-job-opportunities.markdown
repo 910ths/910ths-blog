@@ -24,3 +24,5 @@ Take a look at this full profile ![Screen Shot 2018-02-14 at 4.42.41 PM.png](/up
                                      ![news-05.jpg](/uploads/news-05.jpg)
 
 ![news-03.jpg](/uploads/news-03.jpg)
+
+                            ![news-02.jpg](/uploads/news-02.jpg)
