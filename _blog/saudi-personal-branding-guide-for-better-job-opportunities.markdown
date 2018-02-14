@@ -22,7 +22,7 @@ I will take you and advise with you with a simple guide you can start immediatel
 **1-LinkedIn.**
 
 
-LinkedIn is a professional network to connect with professionals from your field and follow companies that share articles and updates and might hire you one day
+LinkedIn is a professional network to connect with professionals from your field and follow companies that share articles and updates and might hire you one day. 
 Take a look at this full profile
 
 
