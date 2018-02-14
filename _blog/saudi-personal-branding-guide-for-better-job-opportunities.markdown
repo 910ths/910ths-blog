@@ -21,3 +21,5 @@ Take a look at this full profile ![Screen Shot 2018-02-14 at 4.42.41 PM.png](/up
 <center>This text will be centered.
 <p>So will this paragraph.</p></center>
 
+                                     ![news-05.jpg](/uploads/news-05.jpg)
+
