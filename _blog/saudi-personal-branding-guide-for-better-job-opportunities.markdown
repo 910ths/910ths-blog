@@ -7,7 +7,7 @@ Are a you a fresh graduate looking for a job? Or you already finished at least 1
 
 We are in a fast paced world where technology and competition is going harder and faster not just between companies but also between candidates..HUMANS!
 
-If you think it's only about your educational background and experience and how beautiful your CV is..yes maybe..but you're wrong, there is a bigger factors...It's you..your personality and how you brand yourself to appear active, energized and knowledgeable about your industry and field. 
+If you think it's only about your educational background and experience and how beautiful your CV is..yes maybe..but you're wrong, there is a bigger factors...![my picture-1902c1.jpg](/uploads/my%20picture-1902c1.jpg)It's you..your personality and how you brand yourself to appear active, energized and knowledgeable about your industry and field. 
 
 For example, let's say you just graduated with B.A in politics or geographic studies..you have a nice CV and good GPA..why would you get hired from another 1000 students who just graduated with you and has the same qualifications as you? good question right? 
 
