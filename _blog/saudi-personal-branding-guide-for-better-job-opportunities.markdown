@@ -19,4 +19,6 @@ Take a look at this full profile
 ![Screen Shot 2018-02-14 at 4.42.41 PM-042cc5.png](/uploads/Screen%20Shot%202018-02-14%20at%204.42.41%20PM-042cc5.png)
 
 or like this 
-![Screen Shot 2018-02-14 at 10.51.04 PM.png](/uploads/Screen%20Shot%202018-02-14%20at%2010.51.04%20PM.png)
+![Screen Shot 2018-02-14 at 10.51.04 PM.png](/uploads/Screen%20Shot%202018-02-14%20at%2010.51.04%20PM.png<div style=“text-align:center” markdown=“1">
+![Alt Text](/path/to/image “Caption”)
+</div>)
