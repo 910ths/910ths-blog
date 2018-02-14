@@ -19,7 +19,7 @@ For example, let's say you just graduated with B.A in politics or geographic stu
 
 I will take you and advise with you with a simple guide you can start immediately.
 
-**1-LinkedIn. **
+**1-LinkedIn.**
 
 
 LinkedIn is a professional network to connect with professionals from your field and follow companies that share articles and updates and might hire you one day
