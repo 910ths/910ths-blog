@@ -21,10 +21,8 @@ I will take you and advise with you with a simple guide you can start immediatel
 
 **1-LinkedIn.**
 
-
-LinkedIn is a professional network to connect with professionals from your field and follow companies that share articles and updates and might hire you one day. 
+LinkedIn is a professional network to connect with professionals from your field and follow companies that share articles and updates and might hire you one day.
 Take a look at this full profile
-
 
 ![Screen Shot 2018-02-14 at 4.42.41 PM-042cc5.png](/uploads/Screen%20Shot%202018-02-14%20at%204.42.41%20PM-042cc5.png)
 
@@ -36,22 +34,19 @@ As you can notice both Sahal and Nourah used a professional photos, nice summary
 
 **2- Create a simple nice CV using any tool or your own design skills.**
 
-
-Here is a chrome extension you download then auto export your LinkedIn profile with it: https://ceev.io/
+Here is a chrome extension you download then auto export your LinkedIn profile with it: [https://ceev.io/](https://ceev.io/)
 
 **3-** **Participate in conversations that matters to you and your industry..you think its hard? no trust me!**
-
 
 Schedule a 30 mins everyday to comment and follow people on Twitter and Linkedin and share your opinion with them..now you tell me you're wasting time..not really, you're actually learning from people who has more experience than you and getting your name shown!
 
 **4- Take courses, extra courses..keep learning! add these certificates to your CV and LinkedIn.**
 
-* https://www.doroob.sa for free courses
+* [https://www.doroob.sa](https://www.doroob.sa) for free courses
 
-* https://www.rwaq.org
+* [https://www.rwaq.org](https://www.rwaq.org)
 
 **5- Attend meet ups, events and conferences so you network with people from your industry to share ideas and learn from each other.**
-
 
 Check your city events calendar.
 download meetup app https://www.meetup.com/apps
@@ -59,16 +54,14 @@ Be confident to meet new people and stay active.
 
 **6- Create a portfolio for yourself wether its a service or speech or a design you made.**
 
-
 Like come on, Do 1 month free internship in your cousin's firm to learn more. sign up in a free workshop in your city or any college..
-Or simply sign up to https://bahr.910ths.sa/ and start freelancing!
+Or simply sign up to [https://bahr.910ths.sa/](https://bahr.910ths.sa/) and start freelancing!
 
 **7- Subscribe to newsletters and websites that sends you weekly updates about your industry.**
 
-** **Be updated about your field so whenever there is a discussion in your field wether on Twitter and LinkedIn you can participate and share knowledge.
+\*\* \*\*Be updated about your field so whenever there is a discussion in your field wether on Twitter and LinkedIn you can participate and share knowledge.
 
 **8-** **Do initiatives for the community that shows your skills.**
-
 
 I remember an engineer who didn't find a job but created solar power energy on the roof of a mosque to help cut costs and use the money to help others, someone share a case study about him doing that and then he immediately was hired.
 
