@@ -85,18 +85,29 @@ esso_api:
   base_url: https://esso-api.910ths.sa/api
   base_uat_url: https://uat-esso-api.910ths.sa/api
 zendesk_subdomain: 
-hotjar_id: 
-hotjar_snippet_version: 
+hotjar_id: 780725
+hotjar_snippet_version: |-
+  <!-- Hotjar Tracking Code for blog.910ths.sa/ -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:780725,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
 google_analytics_ua: 
 google_tag_manager_gtm: 
 description: 
 ar_description: 
 social:
-  twitter: "#"
-  instagram: "#"
-  facebook: "#"
-  linkedin: "#"
-  youtube: "#"
+  twitter: https://twitter.com/910ths
+  instagram: https://www.instagram.com/910ths/
+  facebook: https://www.facebook.com/910ths
+  linkedin: https://www.linkedin.com/company/10429419/
+  youtube: https://www.youtube.com/channel/UC-0l5fUO41EnK8MlR1rO9XA
 masonry:
   limit: 5
   more_count: 2
