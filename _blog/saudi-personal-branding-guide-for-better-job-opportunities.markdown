@@ -17,6 +17,6 @@ I will take you and advise with you with a simple guide you can start immediatel
 LinkedIn is a professional network to connect with professionals from your field and follow companies that share articles and updates and might hire you one day
 Take a look at this full profile ![Screen Shot 2018-02-14 at 4.42.41 PM.png](/uploads/Screen%20Shot%202018-02-14%20at%204.42.41%20PM.png)
                                                                                                               kkfk
-<center>![my picture-1902c1.jpg](/uploads/my%20picture-1902c1.jpg)</center>
+<center>![my picture-1902c1.jpg]</center>(/uploads/my%20picture-1902c1.jpg)
 <center>This text will be centered.
 <p>So will this paragraph.</p></center>
