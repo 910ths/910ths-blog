@@ -49,7 +49,7 @@ Add your app or service to many Saudi online hubs like
 **Apps by 910ths** .
 [https://apps.910ths.sa/service-store (click here to check them)](https://apps.910ths.sa/service-store)
 
-**Masheed by Saudi Projects **.
+**Masheed by Saudi Projects .**
 [masheedplus.saudiprojects.net/ (click here to check them out).](masheedplus.saudiprojects.net/).
 
 4- Check ministries and governments websites for direct purchase  by simply searching on google with specific keywords like "monaqsat" or "sheraa mobasher" and their websites will appear or find the links in their websites.
