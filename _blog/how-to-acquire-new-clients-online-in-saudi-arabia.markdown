@@ -28,7 +28,7 @@ Before we start how to acquire new clients online..let's fix your online presenc
 
 7- If your business offers technology or marketing or anything related to an online service, create an account in mail-chimp (email marketing tool) to start sending emails to potential clients or previous clients.
 
-## A good start up example with good online presence and catching clients [http://hroof.tv/](http://hroof.tv/).
+A good start up example with good online presence and catching clients [http://hroof.tv/](http://hroof.tv/).
 
 ### Now after you have a simple nice website and social media presence, let me guide you how to acquire new clients:
 
