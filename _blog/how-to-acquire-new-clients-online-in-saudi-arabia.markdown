@@ -16,9 +16,9 @@ Before we start how to acquire new clients online..let's fix your online presenc
 
 1- Get a responsive website for your firm that may cost you between 2,000 to 10,000 for simple nice website. Hire a local agency or a freelancer on bahr.sa platform (click here to check it)
 
-2- Add your best previous and current clients and be proud that you worked or helped the by mentioning a case study or what you've done to them.
+2- Add your best previous and current clients and be proud that you worked or helped them by mentioning a case study or what you've done to them.
 
-3- Add your company's full information, mission and vision and what you are specialized with.
+3- Add your company's full information, mission and vision and what you are specialized in.
 
 4- Add chat in your website so costumers and clients can leave you a message tool that can help you [https://www.intercom.com/live-chat](https://www.intercom.com/live-chat).
 
@@ -45,7 +45,7 @@ sending proposals to clients and make extra revenue.
 
 Link:  [https://forsa.910ths.sa   (click here to check them)](https://forsa.910ths.sa/)
 
-Add your app or service to many Saudi online hubs like
+Also, if you want to add your service or Apps in one platform in order to reach bigger and greater audience.  Below some great options: 
 
 **Apps by 910ths** .
 [https://apps.910ths.sa/service-store (click here to check them)](https://apps.910ths.sa/service-store)
