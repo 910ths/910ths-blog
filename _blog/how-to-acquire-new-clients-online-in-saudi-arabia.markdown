@@ -5,7 +5,7 @@ excerpt: "**Do you have a small or medium enterprise? Or even a start up? A stud
   provided by Ministry Of Commerce that most of services related jobs in Saudi Arabia
   preferred to be done by Local Saudi companies or agencies .. But with social media
   and internet, marketing your firm isn't just attending events and sending give aways
-  to potential clients! there is more **"
+  to potential clients! there is more**\n"
 image_asset: "/uploads/pablo22.png"
 Blog_categories: Entrepreneurship
 ---
