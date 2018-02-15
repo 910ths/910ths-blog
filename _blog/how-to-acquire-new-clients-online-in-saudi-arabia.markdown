@@ -6,7 +6,7 @@ excerpt: "**Do you have a small or medium enterprise? Or even a start up? A stud
   preferred to be done by Local Saudi companies or agencies .. But with social media
   and internet, marketing your firm isn't just attending events and sending give aways
   to potential clients! there is more **"
-image_asset: "/uploads/pablo%20(1).png"
+image_asset: "/uploads/pablo22.png"
 Blog_categories: Entrepreneurship
 ---
 
