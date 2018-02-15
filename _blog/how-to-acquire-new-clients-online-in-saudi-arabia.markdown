@@ -38,7 +38,8 @@ A good start up example with good online presence and catching clients [http://h
 
 3- Create an account for your company in many trusted Saudi platforms that help you grow your business such as:
 
-**Forsa Platform**
+**Forsa Platform.**\
+
 Get easy and transparent access to new business opportunities and
 sending proposals to clients and make extra revenue
 Link:  [https://forsa.910ths.sa   (click here to check them)](https://forsa.910ths.sa/)
