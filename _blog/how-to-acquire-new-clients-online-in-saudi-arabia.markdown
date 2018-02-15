@@ -41,7 +41,8 @@ A good start up example with good online presence and catching clients [http://h
 **Forsa Platform.**
 
 Get easy and transparent access to new business opportunities and
-sending proposals to clients and make extra revenue
+sending proposals to clients and make extra revenue.
+
 Link:  [https://forsa.910ths.sa   (click here to check them)](https://forsa.910ths.sa/)
 
 Add your app or service to many Saudi online hubs like
