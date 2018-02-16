@@ -51,7 +51,6 @@ ar_content_md: |-
 ar_excerpt: "كيف للأشياء الصغيرة اليومية أن يكون لها تأثيرًا كبيرًاعلى أفعالنا في
   المستقبل؟  \n\nهذا ما فعلته الكتابات التحفيزية اليومية في حياة حصة العمير؛ مصممة
   تقويم التفاؤل. \n"
-Blog_categories: Entrepreneurship
 Blog_tags: Business
 Blog_authors: Nourah Alsadoun
 ---
