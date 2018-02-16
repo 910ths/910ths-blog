@@ -6,7 +6,7 @@ class Core {
     document.cftn.hideScroll  = new HideScroll();
     document.cftn.menu        = new Menu();
     document.cftn.masonryGrid = new MasonryGrid();
-    document.cftn.stats       = new Stats();
+    // document.cftn.stats       = new Stats();
 
   }
 
