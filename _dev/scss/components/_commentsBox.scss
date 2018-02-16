@@ -4,9 +4,12 @@
     width: 100%;
     padding-bottom: 74px;
 
-    span,
-    iframe {
+    #disqus_thread {
       width: 100% !important;
+
+      iframe {
+        height: 500px;
+      }
     }
   }
 }
