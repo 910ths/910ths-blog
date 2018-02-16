@@ -5,7 +5,6 @@ excerpt: "**Are a you a fresh graduate looking for a job? Or you already finishe
   at least 1 year experience? Do you have a passion about what you do? Did you think
   how the recruitment process go? sometimes recruiting has nothing to do with HR debarment..**"
 image_asset: "/uploads/pablo.png"
-Blog_categories: Entrepreneurship
 Blog_authors: Abdulrhman Alshikha
 ---
 
