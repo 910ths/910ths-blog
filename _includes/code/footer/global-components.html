@@ -26,6 +26,7 @@
   });
 
   var header = new nine10ths.components.Header(document.querySelector('.globHeader'), {
+    disableLanguageSwitch: true,
     lang: '{{ site.lang }}',
     env: '{% if jekyll.environment == 'production' %}prod{% else %}uat{% endif %}',
     onChangeLanguage: function(callback) {
