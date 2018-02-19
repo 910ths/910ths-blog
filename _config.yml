@@ -86,18 +86,7 @@ esso_api:
   base_uat_url: https://uat-esso-api.910ths.sa/api
 zendesk_subdomain: 
 hotjar_id: 780725
-hotjar_snippet_version: |-
-  <!-- Hotjar Tracking Code for blog.910ths.sa/ -->
-  <script>
-      (function(h,o,t,j,a,r){
-          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-          h._hjSettings={hjid:780725,hjsv:6};
-          a=o.getElementsByTagName('head')[0];
-          r=o.createElement('script');r.async=1;
-          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-          a.appendChild(r);
-      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-  </script>
+hotjar_snippet_version: 
 google_analytics_ua: 
 google_tag_manager_gtm: 
 description: 
