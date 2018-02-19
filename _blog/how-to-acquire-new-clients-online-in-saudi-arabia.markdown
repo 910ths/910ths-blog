@@ -6,7 +6,7 @@ excerpt: "**Do you have a small or medium enterprise? Or even a start up? A stud
   preferred to be done by Local Saudi companies or agencies .. But with social media
   and internet, marketing your firm isn't just attending events and sending give aways
   to potential clients! there is more**\n"
-image_asset: "/uploads/pablo%20(4).png"
+image_asset: "/uploads/acquire%20new%20costumers%20in%20saudi%20arabia.png"
 ar_title: كيف تستحوذ على عملاء جدد عبر الإنترنت في السعودية؟
 ar_content_md: "\nعندك منشأة صغيرة أو متوسطة أو بدأت في مشروع جديد؟ \n\nالدراسات تثبت
   أن معظم الاعمال التي تكون خدمات او اعمال ادارية في السعودية يفضل ان تكون منفذة من
