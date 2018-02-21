@@ -90,7 +90,9 @@ hotjar_snippet_version:
 google_analytics_ua: UA-80770522-15
 google_tag_manager_gtm: 
 description: 
-ar_description: مدونة تسعة أعشار مدونة تفاعلية موجهة لرواد الأعمال، تطرح عدة مواضيع تتمحور حول ريادة الأعمال والعمل الحر، إلى جانب مشاركة قصص النجاح وتناقل الخبرات والمعرفة العلمية والتقنية
+ar_description: مدونة تسعة أعشار مدونة تفاعلية موجهة لرواد الأعمال، تطرح عدة مواضيع
+  تتمحور حول ريادة الأعمال والعمل الحر، إلى جانب مشاركة قصص النجاح وتناقل الخبرات
+  والمعرفة العلمية والتقنية
 social:
   twitter: https://twitter.com/910ths
   instagram: https://www.instagram.com/910ths/
