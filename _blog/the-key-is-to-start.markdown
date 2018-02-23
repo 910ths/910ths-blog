@@ -7,6 +7,7 @@ excerpt: 'How can small actions have huge impact on our lives in the future? Thi
 
 '
 image_asset: "/uploads/blog%20post%203_2-final%20crop%20one%20cover%20page.jpg"
+meta_desc: hello
 ar_title: المهم أن تبدأ
 ar_content_md: |-
   كيف للأشياء الصغيرة اليومية أن يكون لها تأثيرًا كبيرًاعلى أفعالنا في المستقبل؟
@@ -51,6 +52,7 @@ ar_content_md: |-
 ar_excerpt: "كيف للأشياء الصغيرة اليومية أن يكون لها تأثيرًا كبيرًاعلى أفعالنا في
   المستقبل؟  \n\nهذا ما فعلته الكتابات التحفيزية اليومية في حياة حصة العمير؛ مصممة
   تقويم التفاؤل. \n"
+ar_meta_desc: hi
 Blog_tags: Business
 Blog_authors: Nourah Alsadoun
 ---
