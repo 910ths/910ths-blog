@@ -67,9 +67,11 @@ defaults:
     layout: post
     excerpt: ''
     image_asset: ''
+    meta_desc: ''
     ar_title: ''
     ar_content_md: ''
     ar_excerpt: ''
+    ar_meta_desc: ''
     Blog_categories: ''
     Blog_tags: ''
     Blog_authors: ''

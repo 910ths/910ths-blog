@@ -8,7 +8,10 @@
   {% capture head_title %}{% value page.title %}{% endcapture %}
   <title>{{ head_title }} - {% value site.title_suffix %}</title>
 
-  {% capture description %}{% value site.description %}{% endcapture %}
+  {% capture description %}{% value page.meta_desc %}{% endcapture %}
+  {% if description == empty %}
+    {% capture description %}{% value site.description %}{% endcapture %}
+  {% endif %}
   <meta name="description" content="{{ description | strip_html | strip_newlines | truncate: 160 }}">
   <meta name="robots" content="index,follow">
 

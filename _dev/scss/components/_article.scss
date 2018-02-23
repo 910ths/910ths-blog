@@ -218,6 +218,10 @@
       z-index: 1;
       transition: opacity .3s;
 
+      @include rwd('large-tablet') {
+        margin: 0;
+      }
+
       &:hover {
         opacity: .75;
       }
