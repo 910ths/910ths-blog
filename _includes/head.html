@@ -15,6 +15,12 @@
   <meta name="description" content="{{ description | strip_html | strip_newlines | truncate: 160 }}">
   <meta name="robots" content="index,follow">
 
+  {% if page.layout == 'post' %}
+    <meta property="og:title" content="{% value page.title %}" />
+    <meta property="og:url" content="{{ site.url }}{% t lang_slug %}{{ page.url }}" />
+    <meta property="og:image" content="{{ site.url }}{{ page.image_asset }}" />
+  {% endif %}
+
   <link rel="stylesheet" href="/build/css/styles.css">
 
   <link rel="icon" type="image/png" href="/img/favicon.png">
