@@ -220,6 +220,7 @@
       transition: opacity .3s;
 
       @include rwd('large-tablet') {
+        width: 100%;
         margin: 0;
       }
 
