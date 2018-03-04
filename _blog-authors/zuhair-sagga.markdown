@@ -6,5 +6,6 @@ ar_title: 'زهير سقا '
 ar_work_position: خبير، إدارة المنتجات
 twitter_url: https://twitter.com/zsagga?lang=en
 instagram_url: https://www.instagram.com/zsagga/
+linkedin_url: https://www.linkedin.com/in/zuhairsagga/
 ---
 
