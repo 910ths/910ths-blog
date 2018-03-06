@@ -16,6 +16,7 @@
   <meta name="robots" content="index,follow">
 
   {% if page.layout == 'post' %}
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="{% value page.title %}" />
     <meta property="og:url" content="{{ site.url }}{% t lang_slug %}{{ page.url }}" />
     <meta property="og:image" content="{{ site.url }}{{ page.image_asset }}" />
