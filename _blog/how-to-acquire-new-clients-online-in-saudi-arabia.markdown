@@ -1,6 +1,7 @@
 ---
 title: How To Acquire New Clients Online in Saudi Arabia?
 date: 2018-02-14 21:20:00 Z
+position: 1
 excerpt: "**Do you have a small or medium enterprise? Or even a start up? A study
   provided by Ministry Of Commerce that most of services related jobs in Saudi Arabia
   preferred to be done by Local Saudi companies or agencies .. But with social media

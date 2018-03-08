@@ -1,6 +1,7 @@
 ---
 title: Saudi Personal Branding Guide For Better Job Opportunities!
 date: 2018-02-14 13:19:00 Z
+position: 3
 excerpt: "**Are a you a fresh graduate looking for a job? Or you already finished
   at least 1 year experience? Do you have a passion about what you do? Did you think
   how the recruitment process go? sometimes recruiting has nothing to do with HR debarment..**"

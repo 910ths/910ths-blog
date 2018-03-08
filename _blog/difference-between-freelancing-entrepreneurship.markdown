@@ -1,6 +1,7 @@
 ---
 title: الفرق بين العمل الحر و ريادة الأعمال
 date: 2018-02-27 09:41:00 Z
+position: 2
 image_asset: "/uploads/zuhair-blog-3.jpg"
 ar_title: الفرق بين العمل الحر و ريادة الأعمال
 ar_content_md: |-

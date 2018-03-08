@@ -1,6 +1,7 @@
 ---
 title: The Key is to Start!
 date: 2018-02-12 12:03:00 Z
+position: 0
 excerpt: 'How can small actions have huge impact on our lives in the future? This
   is how daily motivational writings have affected Hessa Al Omair, the designer of
   the optimistic calendar.
