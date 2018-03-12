@@ -20,6 +20,12 @@
     <meta property="og:title" content="{% value page.title %}" />
     <meta property="og:url" content="{{ site.url }}{% t lang_slug %}{{ page.url }}" />
     <meta property="og:image" content="{{ site.url }}{{ page.image_asset }}" />
+  {% else %}
+    {% assign posts = site.blog | sort: 'date' | reverse %}
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ head_title }} - {% value site.title_suffix %}" />
+    <meta property="og:url" content="{{ site.url }}{% t lang_slug %}" />
+    <meta property="og:image" content="{{ site.url }}{{ posts[0].image_asset }}" />
   {% endif %}
 
   <link rel="stylesheet" href="/build/css/styles.css">
