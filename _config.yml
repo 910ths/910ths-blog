@@ -86,12 +86,12 @@ esso:
 esso_api:
   base_url: https://esso-api.910ths.sa/api
   base_uat_url: https://uat-esso-api.910ths.sa/api
-zendesk_subdomain: 
+zendesk_subdomain:
 hotjar_id: 
-hotjar_snippet_version: 
-google_analytics_ua: 
+hotjar_snippet_version:
+google_analytics_ua:
 google_tag_manager_gtm: GTM-PGTQKW3
-description: 
+description:
 ar_description: مدونة تسعة أعشار مدونة تفاعلية موجهة لرواد الأعمال، تطرح عدة مواضيع
   تتمحور حول ريادة الأعمال والعمل الحر، إلى جانب مشاركة قصص النجاح وتناقل الخبرات
   والمعرفة العلمية والتقنية
