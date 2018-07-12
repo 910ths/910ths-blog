@@ -63,12 +63,6 @@
     l.href = '/css/main.css';
     var h = document.getElementsByTagName('head')[0];
     h.parentNode.insertBefore(l, h);
-
-    var ll = document.createElement('link');
-    ll.rel = 'stylesheet';
-    ll.href = 'https://cdn.910ths.sa/css/bundle.min.css?_={{ site.version }}';
-    var hh = document.getElementsByTagName('head')[0];
-    hh.parentNode.insertBefore(ll, hh);
   };
 
   var raf =
