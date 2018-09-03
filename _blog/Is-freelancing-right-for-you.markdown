@@ -1,6 +1,7 @@
 ---
 title: هل العمل المستقل مناسب لك؟
 date: 2018-09-02 13:37:00 Z
+image_asset: "/uploads/Haifa's%20blog%201.jpg"
 ar_title: 'هل العمل المستقل مناسب لك؟
 
 '
