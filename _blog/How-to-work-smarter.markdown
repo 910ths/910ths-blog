@@ -1,7 +1,7 @@
 ---
 title: كيف تعمل بذكاء؟
 date: 2018-09-10 07:38:00 Z
-image_asset: "/uploads/haifa%20second%20blog.final%20image.jpg"
+image_asset: "/uploads/haifa-second-blog-final.jpg"
 ar_title: كيف تعمل بذكاء؟
 ar_content_md: "\nلا يُقاس نجاح العمل بالجهد الذي تضعه فيه والضغوط التي يصنعها فقد
   يكون العمل بذكاء طريقك لإنجاز أكبر ونجاحات تفخر بها. أشارككم في النقاط التالية أهمّ
